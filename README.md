@@ -1,3 +1,17 @@
-# Uebung
-Die Erste Ausfgabe 
-![image](https://github.com/user-attachments/assets/85f8a2e0-341a-4da6-a352-4e5f62c2b21c)
+# Uebung 
+
+
+
+
+
+
+„Sollten Sie die ZIP-Datei nicht herunterladen wollen, haben Sie auch die Möglichkeit, alle Dokumente einzeln herunterzuladen und zu öffnen.“
+
+
+
+
+
+„Sie können die Struktur einsehen, wenn Sie die ZIP-Datei öffnen.“
+
+
+![image](https://github.com/user-attachments/assets/8951c8e4-f359-4866-81a5-2f5c29df14ad)
