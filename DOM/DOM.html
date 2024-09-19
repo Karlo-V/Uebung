@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Beispiel</title>
+</head>
+<body>
+<h1 id="main-title">Willkommen zur DOM-Welt</h1>
+<p class="description">Dies ist ein einfacher Absatz.</p>
+<a href="#" id="link">Ein Beispiel-Link</a>
+<button id="changeBtn">Inhalt ändern</button>
+
+<script>
+    function printDOMElements(element) {
+        // Ausgabe des Tag-Namens des aktuellen Elements
+        console.log(element.tagName);
+
+        // Iteration durch alle childrenelemente des aktuellen Elements
+        for (let i = 0; i < element.children.length; i++) {
+            // Rekursive Aufruf der Funktion für jedes Kindelement
+            printDOMElements(element.children[i]);
+        }
+    }
+
+    // Zugriff auf das Root-Element (das 'html'-Element) des Dokuments
+    const rootElement = document.documentElement;
+
+    // Aufruf der Funktion, um alle Elemente des Dokuments auszugeben
+    printDOMElements(rootElement);
+</script>
+</body>
+</html>
